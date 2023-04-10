@@ -25,7 +25,8 @@ h1{
 
 div.video{
     position: relative;
-    height: 0px;
+    height: 750px;
+    width: 750px;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 15px;
