@@ -11,14 +11,16 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
         td,th{
-            border: 1px solid black;
+            border: 1px solid rgb(49, 48, 42);
             padding: 10px;
 
         }
         thead, tfoot{
-            background-color: lightslategray;
+            background-color: rgb(49, 48, 42);
             color: white;
 
         }
@@ -28,6 +30,11 @@
         tbody > tr:nth-child(2n){
             background-color: lightgrey;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1;
+            background-color: rgb(49, 48, 42);
+        }
     </style>
 </head>
 <body>
@@ -36,7 +43,7 @@
             <caption>População De Alguns Estados</caption>
             <thead>
                 <tr>        
-                    <th scope="col">estado</th>
+                    <th scope="col" >estado</th>
                     <th scope="col">população</th>
                 </tr>
             </thead>
